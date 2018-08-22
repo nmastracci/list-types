@@ -28,7 +28,7 @@ let presentColumnNumber;
 // need to move the piece
 
 function moveToNextSpace() {
-  if(canWePlaceAQueen === true) {
+  if(canWePlaceAQueen() === true) {
     this.placeQueen();
     // move to next space
   } else {
@@ -46,8 +46,9 @@ function moveToNextSpace() {
 function canWePlaceAQueen() {
   // iterate through all the potential moves a queen could take and determine which space that move would reside
   // check the running log of where queens are and match the space
+  return true;
 }
 
 function placeQueen() {
-  //add a queen to the board
+  // add the coordinates to the object that tracks where the queens are
 }
