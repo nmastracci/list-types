@@ -1,4 +1,8 @@
 /**
+ * @file Task given by Mike! Explore stack and queue types.
+ */
+
+/**
  * He has the general list actions so he's the Generalist!
  */
 export class Generalist {
