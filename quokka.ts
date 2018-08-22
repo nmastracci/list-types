@@ -22,17 +22,10 @@ export class StackList extends Generalist {
   }
 
   public push(n) {
-
-    return n;
+    console.log(n); /* ? */
+    return n; /* n? */
   }
   public pop(n) {
     return n;
   }
 }
-
-// StackList.push(n);
-
-/**
- * First In First
- */
-export class QueueList
